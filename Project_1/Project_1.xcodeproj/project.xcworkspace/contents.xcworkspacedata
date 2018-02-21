@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Project_1/City.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Project_1/Flatulan.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Project_1/Game.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Project_1/History.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Project_1/Player.h">
+   </FileRef>
+   <FileRef
+      location = "self:Project_1.xcodeproj">
+   </FileRef>
+</Workspace>

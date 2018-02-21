@@ -1,0 +1,36 @@
+2.
+Given the algorithm, main function, and maze shown at the end of problem 1, what are the first 12 (r,c) coordinates popped off the stack by the algorithm?
+
+4, 3
+3, 3
+5, 3
+5, 2
+5, 1
+6, 1
+7, 1
+8, 1
+8, 2
+6, 3
+4, 4
+4, 5
+
+
+4.
+Given the same main function and maze as are shown at the end of problem 1, what are the first 12 (r,c) coordinates popped from the queue in your queue-based algorithm?
+
+4, 3
+4, 4
+5, 3
+3, 3
+4, 5
+6, 3
+5, 2
+4, 6
+5, 5
+5, 1
+4, 7
+6, 5
+
+How do the two algorithms differ from each other? (Hint: how and why do they visit cells in the maze in a different order?)
+
+The path finder that uses Stacks utilizes depth-first search, while the one that uses Queues utilizes breadth-first search. The difference in these two searches is that with the Stacks, you examine every path, one at a time, all the way to its last possible location and check if that is location we are looking for. With the queues, you examine all the possible locations of all the locations we know right now. The stack search tends to have its search go far away from the start position, while the queue search has its search be as close as possible to the start position.
